@@ -1,0 +1,256 @@
+.profilePage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff7fa, #faedf3);
+  font-family: Arial, sans-serif;
+  color: #202833;
+}
+
+.profileNav {
+  height: 64px;
+  background: white;
+  border-bottom: 1px solid #f4cbd9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 170px;
+}
+
+.profileBrand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+}
+
+.profileLogo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+}
+
+.profileLinks {
+  display: flex;
+  gap: 18px;
+}
+
+.profileLinks button {
+  border: none;
+  background: transparent;
+  color: #222;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 11px 16px;
+  border-radius: 22px;
+}
+
+.profileLinks .active {
+  background: #ff478b;
+  color: white;
+}
+
+.profileMain {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 55px 25px;
+}
+
+.profileTitle h1 {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.profileTitle p {
+  color: #8a6f7a;
+  font-size: 17px;
+}
+
+.profileCard,
+.routineCardProfile,
+.accountActions {
+  background: white;
+  border: 1px solid #f4cbd9;
+  border-radius: 22px;
+  box-shadow: 0 16px 35px rgba(255, 71, 139, 0.1);
+}
+
+.profileCard {
+  margin-top: 35px;
+  padding: 50px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.avatar {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 46px;
+}
+
+.userInfo h2 {
+  margin-bottom: 8px;
+  color: #000;
+  font-weight: 700;
+}
+
+.userInfo p {
+  color: #8a6f7a;
+}
+
+.profileStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 55px 0;
+}
+
+.profileStats div {
+  background: #fff7fa;
+  border-radius: 16px;
+  padding: 26px;
+}
+
+.profileStats p {
+  color: #8a6f7a;
+  margin-bottom: 16px;
+}
+
+.profileStats h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.concerns h3 {
+  margin-bottom: 20px;
+}
+
+.concerns span {
+  display: inline-block;
+  background: #ffeaf2;
+  color: #ff478b;
+  border: 1px solid #ffb8d2;
+  padding: 10px 18px;
+  border-radius: 22px;
+}
+
+.routineGridProfile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 34px;
+}
+
+.routineCardProfile {
+  padding: 34px;
+}
+
+.routineHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 50px;
+  
+}
+.routineHeader h2 {
+  color: #000;      
+  font-weight: 700;
+}
+.sunIcon,
+.moonIcon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 34px;
+  color: #000;
+}
+
+.sunIcon {
+  background: #fff0bf;
+  color: #f59e0b;
+}
+
+.moonIcon {
+  background: #dfe5ff;
+  color: #4f46e5;
+}
+
+.routineItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff7fa;
+  border-radius: 18px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.routineItem span {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #ff478b;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.routineItem p {
+  color: #202833;
+}
+
+.accountActions {
+  margin-top: 34px;
+  padding: 34px;
+}
+
+.accountActions h2 {
+  margin-bottom: 45px;
+  color: #000;
+}
+
+.accountActions button {
+  width: 100%;
+  background: #fff7fa;
+  border: 1px solid #f4cbd9;
+  border-radius: 18px;
+  padding: 18px;
+  display: flex;
+  gap: 18px;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.accountActions span {
+  color: #ff478b;
+}
+
+.accountActions strong {
+  color: #000;
+}
+
+.accountActions p {
+  color: #8a6f7a;
+  margin-top: 5px;
+}
+
+.signOut strong,
+.signOut span {
+  color: #ef4444;
+}

@@ -1,0 +1,87 @@
+.getStartedPage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff7fa, #faedf3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.getStartedCard {
+  width: 450px;
+  background: white;
+  border: 1px solid #f4cbd9;
+  border-radius: 24px;
+  padding: 38px;
+  text-align: center;
+  box-shadow: 0 18px 45px rgba(255, 71, 139, 0.12);
+}
+
+.getStartedIcon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 42px;
+}
+
+.getStartedCard h1 {
+  color: #202833;
+  margin-bottom: 18px;
+}
+
+.getStartedCard > p {
+  color: #7b6f77;
+  margin-bottom: 35px;
+}
+
+.getStartedForm {
+  text-align: left;
+}
+
+.getStartedForm label {
+  display: block;
+  color: #202833;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.getStartedForm input {
+  width: 100%;
+  height: 42px;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  background: #fff0f6;
+  padding: 0 16px;
+  margin-bottom: 20px;
+  color: #202833;
+}
+
+.getStartedForm button {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: 26px;
+  background: #ff478b;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.signinText {
+  margin-top: 28px;
+  color: #7b6f77;
+  font-size: 14px;
+}
+
+.signinText span {
+  color: #ff478b;
+  cursor: pointer;
+  font-weight: 700;
+}

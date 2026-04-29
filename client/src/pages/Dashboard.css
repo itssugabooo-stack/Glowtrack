@@ -1,0 +1,237 @@
+.dashboardPage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff7fa, #faedf3);
+  font-family: Arial, sans-serif;
+  color: #202833;
+}
+
+.dashNav {
+  height: 64px;
+  background: white;
+  border-bottom: 1px solid #f4cbd9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 170px;
+}
+
+.dashBrand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  color: #444;
+}
+
+.dashLogo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+}
+
+.dashLinks {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.dashLinks button {
+  border: none;
+  background: transparent;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 11px 16px;
+  border-radius: 22px;
+}
+
+.dashLinks .active {
+  background: #ff478b;
+  color:#000;
+}
+
+.dashMain {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 55px 25px;
+}
+
+.welcome h1 {
+  font-size: 26px;
+  margin-bottom: 14px;
+  color: #000;
+}
+
+.welcome p {
+  color: #8a6f7a;
+  font-size: 17px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin: 50px 0 32px;
+}
+
+.statCard {
+  color: #000;
+  background: white;
+  border: 1px solid #f4cbd9;
+  border-radius: 22px;
+  padding: 28px;
+  min-height: 150px;
+  box-shadow: 0 16px 35px rgba(255, 71, 139, 0.1);
+}
+
+.statIcon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.statCard p {
+  color: #000;
+  margin-bottom: 34px;
+}
+
+.statCard h2 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  
+}
+
+.bottomGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+}
+
+.recentCard,
+.actionsCard {
+  background: white;
+  border: 1px solid #f4cbd9;
+  border-radius: 22px;
+  padding: 32px;
+  min-height: 360px;
+  box-shadow: 0 16px 35px rgba(255, 71, 139, 0.1);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+.cardHeader button {
+  border: none;
+  background: #ff478b;
+  color: white;
+  padding: 11px 24px;
+  border-radius: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.emptyState {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyIcon {
+  font-size: 58px;
+  color: #c9c1c5;
+  margin-bottom: 14px;
+}
+
+.emptyState p {
+  color: #8a6f7a;
+  margin-bottom: 18px;
+}
+
+.emptyState button {
+  border: 1px solid #f4cbd9;
+  background: white;
+  color: #2b2b2b;
+  padding: 10px 18px;
+  border-radius: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.actionsCard h3 {
+  margin-bottom: 46px;
+}
+
+.actionsCard button {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: left;
+  background: #fff7fa;
+  border: 1px solid #f4cbd9;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.actionsCard button:first-of-type {
+  border-radius: 16px 16px 0 0;
+}
+
+.actionsCard button:last-of-type {
+  border-radius: 0 0 16px 16px;
+}
+
+.actionsCard span {
+  font-size: 22px;
+}
+
+.actionsCard strong {
+  color: #222;
+}
+
+.actionsCard p {
+  color: #8a6f7a;
+  margin-top: 5px;
+}
+
+.entryList {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.entry {
+  background: #fff7fa;
+  border: 1px solid #f4cbd9;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.entry span {
+  display: block;
+  color: #7b6f77;
+  margin: 8px 0;
+}
+
+.entry p {
+  color: #4b3f45;
+}

@@ -1,0 +1,202 @@
+.homePage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff7fa, #faedf3);
+  font-family: Arial, sans-serif;
+  color: #2b2b2b;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #f4cbd9;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+}
+
+.brandIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+}
+
+.navRight {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.navRight button,
+.heroButtons button,
+.cta button {
+  border: none;
+  background: #ff478b;
+  color: white;
+  padding: 13px 30px;
+  border-radius: 28px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.linkBtn {
+  background: transparent !important;
+  color: #222 !important;
+  padding: 0 !important;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px 60px;
+}
+
+.mainIcon {
+  width: 82px;
+  height: 82px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 45px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  color: #ff7faf;
+  margin-bottom: 18px;
+}
+
+.hero h2 {
+  font-size: 22px;
+  color: #7b6f77;
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+
+.hero p {
+  max-width: 720px;
+  margin: 0 auto 35px;
+  color: #6f6269;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.outlineBtn {
+  background: transparent !important;
+  color: #222 !important;
+  border: 2px solid #ff478b !important;
+}
+
+.features {
+  max-width: 1100px;
+  margin: 20px auto 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  padding: 0 20px;
+}
+
+.featureCard {
+  background: white;
+  border: 1px solid #f6cbd9;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(255, 71, 139, 0.08);
+}
+
+.featureCard div {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  background: #ffe4ee;
+  color: #ff478b;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+}
+
+.featureCard h3 {
+  margin-bottom: 14px;
+}
+
+.featureCard p {
+  color: #7b6f77;
+  line-height: 1.5;
+}
+
+.how {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid #f4cbd9;
+}
+
+.how h2,
+.cta h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.how > p,
+.cta p {
+  color: #7b6f77;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin-top: 55px;
+}
+
+.steps span {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  background: #ff478b;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.steps p {
+  color: #7b6f77;
+  line-height: 1.5;
+}
+
+.cta {
+  text-align: center;
+  padding: 60px 20px 90px;
+}
+
+.cta button {
+  margin-top: 32px;
+}

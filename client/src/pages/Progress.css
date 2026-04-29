@@ -1,0 +1,66 @@
+.progressPage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff7fa, #faedf3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.progressCard {
+  width: 620px;
+  background: white;
+  border: 1px solid #f4cbd9;
+  border-radius: 26px;
+  padding: 40px;
+  box-shadow: 0 18px 45px rgba(255, 71, 139, 0.12);
+}
+
+.progressCard h1 {
+  text-align: center;
+  color: #2b2b2b;
+  margin-bottom: 12px;
+}
+
+.progressCard p {
+  text-align: center;
+  color: #7b6f77;
+  margin-bottom: 35px;
+}
+
+.progressForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.progressForm label {
+  color: #000;
+  font-weight: 700;
+}
+
+.progressForm input[type="range"] {
+  accent-color: #ff478b;
+}
+
+.progressForm textarea {
+  min-height: 120px;
+  border: 1px solid #f4cbd9;
+  border-radius: 18px;
+  padding: 16px;
+  outline: none;
+  resize: none;
+  background: #fff0f6;  /* 🔥 CHANGE HERE */
+  color: #000;
+}
+
+.progressForm button {
+  margin-top: 18px;
+  border: none;
+  background: #ff478b;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
